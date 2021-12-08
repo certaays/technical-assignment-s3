@@ -1,6 +1,6 @@
 ### 1. Mohon jelaskan apa itu Node.js? Apa perbedannya dengan JavaScript?
 Node JS adalah server-side dari Javascript yang dibuat dengan mesin dari Chrome, V8.
-Perbedaan Node JS dengan JavaScript adalah apabila javascript adalah bahasa pemrograman yang dipakai di front end side sehingga hanya dapat di jalankan dengan web browser, sedangkan dengan Node JS, kode dapat dieksekusi di luar web browser(terminal command line) menggunakan perintah node".
+Perbedaan Node JS dengan JavaScript adalah apabila javascript adalah bahasa pemrograman yang dipakai di front end side sehingga hanya dapat di jalankan dengan web browser, sedangkan dengan Node JS, kode dapat dieksekusi di luar web browser(terminal command line) menggunakan perintah "node".
 
 ### 2. Mohon jelaskan arsitektur dari Node.js?
 Arsitektur dari Node JS terdiri dari V8 dan LIBUV. Konsep kerja dari Node JS ini, pertama adalah application yang berisikan file yang akan dijalankan pada runtime V8 Engine untuk selanjutnya dibindings ke Node API dan akan masuk ke dalam LIBUV. Pada proses ini, semua kode akan di proses dengan mengikuti antrian yang sudah ditentukan di dalam Event Queue. Apabila diperkirakan proses program atau kode masih lama, maka akan di stop terlebih dahulu dan akan mengantri kembali. Jika ada proses yang sudah selesai maka callback akan di jalankan.
