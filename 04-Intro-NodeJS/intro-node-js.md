@@ -1,5 +1,5 @@
 ### 1. Mohon jelaskan apa itu Node.js? Apa perbedannya dengan JavaScript?
-````Node JS adalah server-side dari Javascript yang dibuat dengan mesin dari Chrome, V8.
+```Node JS adalah server-side dari Javascript yang dibuat dengan mesin dari Chrome, V8.
 Perbedaan Node JS dengan JavaScript adalah apabila javascript adalah bahasa pemrograman yang dipakai di front end side sehingga hanya dapat di jalankan dengan web browser, sedangkan dengan Node JS, kode dapat dieksekusi di luar web browser(terminal/command line) menggunakan perintah "node".```
 
 ### 2. Mohon jelaskan arsitektur dari Node.js?
