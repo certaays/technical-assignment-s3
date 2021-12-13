@@ -91,7 +91,7 @@ hewanRoute.post('/', postChecker, (req, res) => {
 })
 
 //PUT
-hewanRoute.put('/:id', postChecker, (req, res) => {
+hewanRoute.put('/:id', postChecker, hewanMiddleware, (req, res) => {
     const body = req.body
     const index = hewan.findIndex((hewan) => hewan.id === +req.params.id)
     const updateHewan = {
