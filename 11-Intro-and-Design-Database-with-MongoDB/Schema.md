@@ -45,7 +45,7 @@
 
 #### **One to Many**
 
-**Product :** 
+**Products :** 
 ```
 {
     "_id" : "ObjectId('AAA')",
@@ -99,7 +99,7 @@
 }
 ```
 
-**Cinema :**
+**Cinemas :**
 ```
 {
     "_id" : ObjectId('NNN1'),
@@ -109,7 +109,7 @@
         ObjectId('AAA1'), 
         ObjectId('AAA2')
     ],
-    "Location" : "Pondok Indah Mall"
+    "location" : "Pondok Indah Mall"
 },
 {
     "_id" : ObjectId('NNN2'),
@@ -119,6 +119,6 @@
         ObjectId('AAA1'), 
         ObjectId('AAA2')
     ],
-    "Location" : "Mall Kelapa Gading"
+    "location" : "Mall Kelapa Gading"
 }
 ```
